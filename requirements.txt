@@ -4,3 +4,4 @@ seaborn
 openpyxl
 Pillow
 nbconvert
+pandas=2.0.0
