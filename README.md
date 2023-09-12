@@ -63,6 +63,8 @@ The Jupyter Notebooks can be downloaded locally to computer and accessed:
 - Install Jupyter Lab on local computer: [Installation Guide](https://jupyterlab.readthedocs.io/en/stable/getting_started/installation.html)
 - Install Intel oneAPI Base Toolkit on local computer: [Installation Guide](https://www.intel.com/content/www/us/en/developer/tools/oneapi/base-toolkit-download.html) 
 - git clone the repo and access the Notebooks using Jupyter Lab
+- Navigate to the Introduction to Machine Learning folder
+- pip install -r requirements.txt
 
 
 #### Access using Intel DevCloud
@@ -70,4 +72,11 @@ The Jupyter Notebooks can be downloaded locally to computer and accessed:
 The Jupyter notebooks are tested and can be run on Intel DevCloud without any installation necessary, below are the steps to access these Jupyter notebooks on Intel DevCloud:
 1. Register on [Intel DevCloud](https://devcloud.intel.com/oneapi)
 2. Login, Get Started and Launch Jupyter Lab
-3. Open Terminal in Jupyter Lab and git clone the repo and access the Notebooks
+3. Open Terminal in Jupyter Lab
+4. [RECOMMENDED] Navigate to pre-populated samples folder:
+```bash
+cd oneAPI-samples/AI-and-Analytics/Jupyter/Introduction_to_Machine_Learning/
+```
+4. [OPTIONAL] git clone the temporary patch repo and access the Notebooks  https://github.com/IntelSoftware/Introduction_to_Machine_Learning.git
+5. pip install -r requirements.txt
+
